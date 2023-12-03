@@ -1,0 +1,69 @@
+function data()
+return {
+	__version = "",
+	order = 0,
+	params = {
+		albedo_scale = {
+			albedoScale = { 1, 1, 1, },
+		},
+		alpha_scale = {
+			alphaScale = 1,
+		},
+		alpha_test = {
+			a2CThreshold = 0.89999997615814,
+			alphaThreshold = 0.5,
+			cutout = true,
+			disableDepthAndNormalWrite = false,
+			sorted = false,
+		},
+		color_blend = {
+			albedoScales = { 1.1599999666214, },
+			colors = {
+				{ 0.160784304142, 0.160784304142, 0.160784304142, },
+			},
+		},
+		fade_out_range = {
+			fadeOutEndDist = 20000,
+			fadeOutStartDist = 10000,
+		},
+		map_albedo_opacity = {
+			fileName = "models/vehicle/car/toyota_mirai_v2/toyota_mirai_albedo_opacity.dds",
+			type = "TWOD",
+			wrapS = "REPEAT",
+			wrapT = "REPEAT",
+		},
+		map_cblend = {
+			fileName = "models/vehicle/car/toyota_mirai_v2/toyota_mirai_cblend.dds",
+			type = "TWOD",
+			wrapS = "REPEAT",
+			wrapT = "REPEAT",
+		},
+		map_metal_gloss_ao = {
+			fileName = "models/vehicle/car/toyota_mirai_v2/toyota_mirai_metal_gloss_ao.dds",
+			type = "TWOD",
+			wrapS = "REPEAT",
+			wrapT = "REPEAT",
+		},
+		map_normal = {
+			fileName = "models/vehicle/car/toyota_mirai_v2/toyota_mirai_normal.dds",
+			redGreen = true,
+			type = "TWOD",
+			wrapS = "REPEAT",
+			wrapT = "REPEAT",
+		},
+		normal_scale = {
+			normalScale = 1,
+		},
+		polygon_offset = {
+			factor = 0,
+			forceDepthWrite = false,
+			units = 0,
+		},
+		two_sided = {
+			flipNormal = true,
+			twoSided = false,
+		},
+	},
+	type = "PHYS_TRANSPARENT_NRML_MAP_CBLEND",
+}
+end

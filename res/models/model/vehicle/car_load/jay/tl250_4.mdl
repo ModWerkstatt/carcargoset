@@ -1,0 +1,136 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 1.4273105859756, 0.66571140289307, 1.6125314235687, },
+		bbMin = { -1.4243359565735, -0.66571140289307, -0.005772590637207, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 1.4258232116699, 0.66571140289307, 0.80915200710297, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/tl250/tl250_4.mtl", },
+						mesh = "vehicle/car_load/tl250/jayBandion_mesh_tl250_body_lod0.msh",
+						name = "jayBandion_mesh_tl250_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/tl250/tl250_4.mtl", },
+						mesh = "vehicle/car_load/tl250/jayBandion_mesh_tl250_wheels_lod0.msh",
+						name = "jayBandion_mesh_tl250_wheels",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/tl250/tl250_4.mtl", },
+						mesh = "vehicle/car_load/tl250/jayBandion_mesh_tl250_licht_lod0.msh",
+						name = "jayBandion_mesh_tl250_licht",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/tl250/tl250_4.mtl", },
+						mesh = "vehicle/car_load/tl250/jayBandion_mesh_tl250_stangen_lod0.msh",
+						name = "jayBandion_mesh_tl250_stangen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/tl250/Glass.mtl", },
+						mesh = "vehicle/car_load/tl250/jayBandion_mesh_tl250_glas_lod0.msh",
+						name = "jayBandion_mesh_tl250_glas",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/tl250/tl250_4.mtl", },
+						mesh = "vehicle/car_load/tl250/jayBandion_mesh_tl250_innen_lod0.msh",
+						name = "jayBandion_mesh_tl250_innen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 48.430145263672,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/tl250/tl250_4.mtl", },
+						mesh = "vehicle/car_load/tl250/jayBandion_mesh_tl250_body_lod1.msh",
+						name = "jayBandion_mesh_tl250_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/tl250/tl250_4.mtl", },
+						mesh = "vehicle/car_load/tl250/jayBandion_mesh_tl250_wheels_lod1.msh",
+						name = "jayBandion_mesh_tl250_wheels",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/tl250/tl250_4.mtl", },
+						mesh = "vehicle/car_load/tl250/jayBandion_mesh_tl250_licht_lod1.msh",
+						name = "jayBandion_mesh_tl250_licht",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/tl250/tl250_4.mtl", },
+						mesh = "vehicle/car_load/tl250/jayBandion_mesh_tl250_stangen_lod1.msh",
+						name = "jayBandion_mesh_tl250_stangen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/tl250/Glass.mtl", },
+						mesh = "vehicle/car_load/tl250/jayBandion_mesh_tl250_glas_lod1.msh",
+						name = "jayBandion_mesh_tl250_glas",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 48.430145263672,
+			visibleTo = 145.29043579102,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/tl250/tl250_4.mtl", },
+						mesh = "vehicle/car_load/tl250/jayBandion_mesh_tl250_body_lod2.msh",
+						name = "jayBandion_mesh_tl250_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/tl250/tl250_4.mtl", },
+						mesh = "vehicle/car_load/tl250/jayBandion_mesh_tl250_wheels_lod2.msh",
+						name = "jayBandion_mesh_tl250_wheels",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/tl250/Glass.mtl", },
+						mesh = "vehicle/car_load/tl250/jayBandion_mesh_tl250_glas_lod2.msh",
+						name = "jayBandion_mesh_tl250_glas",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 145.29043579102,
+			visibleTo = 435.87130737305,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

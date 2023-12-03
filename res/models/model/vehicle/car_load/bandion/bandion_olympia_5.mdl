@@ -1,0 +1,149 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 2.168443441391, 0.82950896024704, 1.3607578277588, },
+		bbMin = { -1.8926516771317, -0.8295294046402, -0.011626899242401, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 2.030547618866, 0.8295191526413, 0.68619239330292, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/opelOlym/olympia_5.mtl", },
+						mesh = "vehicle/car_load/opelOlym/bandion_opelOlym_body_lod0.msh",
+						name = "bandion_opelOlym_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.1058809417131e-22, 3.5527136788005e-15, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/opelOlym/olympia_5.mtl", },
+						mesh = "vehicle/car_load/opelOlym/bandion_opelOlym_radL_lod0.msh",
+						name = "bandion_opelOlym_radL",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5742193460464, 0.74424076080322, 0.30918455123901, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/opelOlym/olympia_5.mtl", },
+						mesh = "vehicle/car_load/opelOlym/bandion_opelOlym_radR_lod0.msh",
+						name = "bandion_opelOlym_radR",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5742198228836, -0.74424088001251, 0.30918455123901, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/opelOlym/olympia_5.mtl", },
+						mesh = "vehicle/car_load/opelOlym/bandion_opelOlym_achseHinten_lod0.msh",
+						name = "bandion_opelOlym_achseHinten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9211266040802, -2.3841857910156e-07, 0.30918455123901, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/opelOlym/olympia_5.mtl", },
+						mesh = "vehicle/car_load/opelOlym/bandion_opelOlym_innen_lod0.msh",
+						name = "bandion_opelOlym_innen",
+						transf = { 1, 6.5168268292837e-07, 0, 0, -6.5168268292837e-07, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/opelOlym/glas.mtl", },
+						mesh = "vehicle/car_load/opelOlym/bandion_opelOlym_glass_lod0.msh",
+						name = "bandion_opelOlym_glass",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.1058809417131e-22, 3.5527136788005e-15, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 15.030445098877,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/opelOlym/olympia_5.mtl", },
+						mesh = "vehicle/car_load/opelOlym/bandion_opelOlym_body_lod1.msh",
+						name = "bandion_opelOlym_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.1058809417131e-22, 3.5527136788005e-15, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/opelOlym/olympia_5.mtl", },
+						mesh = "vehicle/car_load/opelOlym/bandion_opelOlym_radL_lod1.msh",
+						name = "bandion_opelOlym_radL",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5742193460464, 0.74424076080322, 0.30918455123901, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/opelOlym/olympia_5.mtl", },
+						mesh = "vehicle/car_load/opelOlym/bandion_opelOlym_radR_lod1.msh",
+						name = "bandion_opelOlym_radR",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5742198228836, -0.74424088001251, 0.30918455123901, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/opelOlym/olympia_5.mtl", },
+						mesh = "vehicle/car_load/opelOlym/bandion_opelOlym_achseHinten_lod1.msh",
+						name = "bandion_opelOlym_achseHinten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9211266040802, -2.3841857910156e-07, 0.30918455123901, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/opelOlym/olympia_5.mtl", },
+						mesh = "vehicle/car_load/opelOlym/bandion_opelOlym_innen_lod1.msh",
+						name = "bandion_opelOlym_innen",
+						transf = { 1, 6.5168268292837e-07, 0, 0, -6.5168268292837e-07, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/opelOlym/glas.mtl", },
+						mesh = "vehicle/car_load/opelOlym/bandion_opelOlym_glass_lod1.msh",
+						name = "bandion_opelOlym_glass",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.1058809417131e-22, 3.5527136788005e-15, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 15.030445098877,
+			visibleTo = 125,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/opelOlym/olympia_5.mtl", },
+						mesh = "vehicle/car_load/opelOlym/bandion_opelOlym_body_lod2.msh",
+						name = "bandion_opelOlym_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -3.1058809417131e-22, 3.5527136788005e-15, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/opelOlym/olympia_5.mtl", },
+						mesh = "vehicle/car_load/opelOlym/bandion_opelOlym_radL_lod2.msh",
+						name = "bandion_opelOlym_radL",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5742193460464, 0.74424076080322, 0.30918455123901, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/opelOlym/olympia_5.mtl", },
+						mesh = "vehicle/car_load/opelOlym/bandion_opelOlym_radR_lod2.msh",
+						name = "bandion_opelOlym_radR",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.5742198228836, -0.74424088001251, 0.30918455123901, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/opelOlym/olympia_5.mtl", },
+						mesh = "vehicle/car_load/opelOlym/bandion_opelOlym_achseHinten_lod2.msh",
+						name = "bandion_opelOlym_achseHinten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -0.9211266040802, -2.3841857910156e-07, 0.30918455123901, 1, },
+					},
+
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 125,
+			visibleTo = 395.27401733398,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

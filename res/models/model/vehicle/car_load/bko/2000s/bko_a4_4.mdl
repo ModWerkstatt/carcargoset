@@ -1,0 +1,262 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 2.2569215297699, 0.97701156139374, 1.419985294342, },
+		bbMin = { -2.290593624115, -0.95295530557632, -0.0090578552335501, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 2.2737574577332, 0.96498346328735, 0.71452158689499, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/bko_blacksemi.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_inttop_lod0.msh",
+						name = "a4_inttop",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/carpaint/bko_new_snow_white.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_body_lod0.msh",
+						name = "a4_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/bko_rubberblack.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_batyre_lod0.msh",
+						name = "a4_batyre",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/bko_lights.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_redglas_lod0.msh",
+						name = "a4_redglas",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/bko_blacksemi.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_int_lod0.msh",
+						name = "a4_int",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/bko_blacksemi.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_dash_lod0.msh",
+						name = "a4_dash",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/bko_up_blue_01.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_seats_lod0.msh",
+						name = "a4_seats",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/bko_alum_2.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_mirrors_lod0.msh",
+						name = "a4_mirrors",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/bko_alum_2.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_ctrim_lod0.msh",
+						name = "a4_ctrim",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/bko_blacksemi.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_glsblac_lod0.msh",
+						name = "a4_glsblac",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/bko_blacksemi.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_blkmatt_lod0.msh",
+						name = "a4_blkmatt",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/bko_lights.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_glsclea_lod0.msh",
+						name = "a4_glsclea",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/bko_blacksemi.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_blksemi_lod0.msh",
+						name = "a4_blksemi",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/carpaint/bko_new_snow_white.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_btrim_lod0.msh",
+						name = "a4_btrim",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/glasstinted.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_glass_lod0.msh",
+						name = "a4_glass",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/bko_alum_2.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_barim_lod0.msh",
+						name = "a4_barim",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/bko_alum_2.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_logos_lod0.msh",
+						name = "a4_logos",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 62.880794525146,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/carpaint/bko_new_snow_white.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_body_lod1.msh",
+						name = "a4_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/bko_rubberblack.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_batyre_lod1.msh",
+						name = "a4_batyre",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/bko_lights.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_redglas_lod1.msh",
+						name = "a4_redglas",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/bko_blacksemi.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_int_lod1.msh",
+						name = "a4_int",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/bko_blacksemi.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_dash_lod1.msh",
+						name = "a4_dash",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/bko_up_blue_01.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_seats_lod1.msh",
+						name = "a4_seats",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/bko_alum_2.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_mirrors_lod1.msh",
+						name = "a4_mirrors",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/bko_blacksemi.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_glsblac_lod1.msh",
+						name = "a4_glsblac",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/bko_blacksemi.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_blkmatt_lod1.msh",
+						name = "a4_blkmatt",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/bko_lights.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_glsclea_lod1.msh",
+						name = "a4_glsclea",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/bko_blacksemi.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_blksemi_lod1.msh",
+						name = "a4_blksemi",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/carpaint/bko_new_snow_white.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_btrim_lod1.msh",
+						name = "a4_btrim",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/glasstinted.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_glass_lod1.msh",
+						name = "a4_glass",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/bko_alum_2.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_barim_lod1.msh",
+						name = "a4_barim",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 62.880794525146,
+			visibleTo = 188.64237976074,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/carpaint/bko_new_snow_white.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_body_lod2.msh",
+						name = "a4_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/bko_rubberblack.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_batyre_lod2.msh",
+						name = "a4_batyre",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/carpaint/bko_new_snow_white.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_btrim_lod2.msh",
+						name = "a4_btrim",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_test/bko_generic/glasstinted.mtl", },
+						mesh = "vehicle/car_load/bko_a4/a4_glass_lod2.msh",
+						name = "a4_glass",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 188.64237976074,
+			visibleTo = 469.70056152344,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

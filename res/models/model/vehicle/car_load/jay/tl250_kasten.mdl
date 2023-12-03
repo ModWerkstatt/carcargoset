@@ -1,0 +1,53 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 4.0301795005798, 1.4531127214432, 1.6707011461258, },
+		bbMin = { -4.0301795005798, -1.4531127214432, -0.025179266929626, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 4.0301795005798, 1.4531127214432, 0.84794020652771, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/tl250Behalter/Zusatz.mtl", },
+						mesh = "vehicle/car_load/tl250Behalter/jay_mesh_goggoBehalter_lod0.msh",
+						name = "jay_mesh_goggoBehalter",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 300.57373046875,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/tl250Behalter/Zusatz.mtl", },
+						mesh = "vehicle/car_load/tl250Behalter/jay_mesh_goggoBehalter_lod1.msh",
+						name = "jay_mesh_goggoBehalter",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 300.57373046875,
+			visibleTo = 901.72119140625,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

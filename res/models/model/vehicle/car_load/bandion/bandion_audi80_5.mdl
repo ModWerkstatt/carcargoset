@@ -1,0 +1,153 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 2.0615677833557, 0.89770823717117, 1.3576313257217, },
+		bbMin = { -2.1308741569519, -0.8977073431015, 0.0012401640415192, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 2.0962209701538, 0.89770781993866, 0.67819559574127, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/audi80/audi80_5.mtl", },
+						mesh = "vehicle/car_load/audi80/bandion_audi80_body_lod0.msh",
+						name = "bandion_audi80_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/audi80/fenster.mtl", },
+						mesh = "vehicle/car_load/audi80/bandion_audi80_glass_lod0.msh",
+						name = "bandion_audi80_glass",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.4901161193848e-08, 3.5527136788005e-15, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/audi80/audi80_5.mtl", },
+						mesh = "vehicle/car_load/audi80/bandion_audi80_radL_lod0.msh",
+						name = "bandion_audi80_radL",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.2707967758179, 0.67752277851105, 0.28740894794464, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/audi80/audi80_5.mtl", },
+						mesh = "vehicle/car_load/audi80/bandion_audi80_achseHinten_lod0.msh",
+						name = "bandion_audi80_achseHinten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1975671052933, -9.1885837605332e-08, 0.28740894794464, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/audi80/audi80_5.mtl", },
+						mesh = "vehicle/car_load/audi80/bandion_audi80_radR_lod0.msh",
+						name = "bandion_audi80_radR",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.2707967758179, -0.67752289772034, 0.28740894794464, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/audi80/audi80_5.mtl", },
+						mesh = "vehicle/car_load/audi80/bandion_audi80_innen_lod0.msh",
+						name = "bandion_audi80_innen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.4901161193848e-08, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 38.352603912354,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/audi80/audi80_5.mtl", },
+						mesh = "vehicle/car_load/audi80/bandion_audi80_body_lod1.msh",
+						name = "bandion_audi80_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/audi80/fenster.mtl", },
+						mesh = "vehicle/car_load/audi80/bandion_audi80_glass_lod1.msh",
+						name = "bandion_audi80_glass",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.4901161193848e-08, 3.5527136788005e-15, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/audi80/audi80_5.mtl", },
+						mesh = "vehicle/car_load/audi80/bandion_audi80_radL_lod1.msh",
+						name = "bandion_audi80_radL",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.2707967758179, 0.67752277851105, 0.28740894794464, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/audi80/audi80_5.mtl", },
+						mesh = "vehicle/car_load/audi80/bandion_audi80_achseHinten_lod1.msh",
+						name = "bandion_audi80_achseHinten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1975671052933, -9.1885837605332e-08, 0.28740894794464, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/audi80/audi80_5.mtl", },
+						mesh = "vehicle/car_load/audi80/bandion_audi80_radR_lod1.msh",
+						name = "bandion_audi80_radR",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.2707967758179, -0.67752289772034, 0.28740894794464, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/audi80/audi80_5.mtl", },
+						mesh = "vehicle/car_load/audi80/bandion_audi80_innen_lod1.msh",
+						name = "bandion_audi80_innen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.4901161193848e-08, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 38.352603912354,
+			visibleTo = 125.05781555176,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/audi80/audi80_5.mtl", },
+						mesh = "vehicle/car_load/audi80/bandion_audi80_body_lod2.msh",
+						name = "bandion_audi80_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/audi80/fenster.mtl", },
+						mesh = "vehicle/car_load/audi80/bandion_audi80_glass_lod2.msh",
+						name = "bandion_audi80_glass",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.4901161193848e-08, 3.5527136788005e-15, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/audi80/audi80_5.mtl", },
+						mesh = "vehicle/car_load/audi80/bandion_audi80_radL_lod2.msh",
+						name = "bandion_audi80_radL",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.2707967758179, 0.67752277851105, 0.28740894794464, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/audi80/audi80_5.mtl", },
+						mesh = "vehicle/car_load/audi80/bandion_audi80_achseHinten_lod2.msh",
+						name = "bandion_audi80_achseHinten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.1975671052933, -9.1885837605332e-08, 0.28740894794464, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/audi80/audi80_5.mtl", },
+						mesh = "vehicle/car_load/audi80/bandion_audi80_radR_lod2.msh",
+						name = "bandion_audi80_radR",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.2707967758179, -0.67752289772034, 0.28740894794464, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false, visibleFrom = 125.05781555176,
+			visibleTo = 525.17346191406,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

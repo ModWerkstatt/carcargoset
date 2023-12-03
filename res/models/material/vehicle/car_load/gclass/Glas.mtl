@@ -1,0 +1,52 @@
+function data()
+return {
+	__version = "",
+	order = 0,
+	params = {
+		albedo_scale = {
+			albedoScale = { 1.4359999895096, 1.6059999465942, 1.6339999437332, },
+		},
+		alpha_scale = {
+			alphaScale = 0.64999997615814,
+		},
+		alpha_test = {
+			a2CThreshold = 0,
+			alphaThreshold = 0.55000001192093,
+			cutout = true,
+			disableDepthAndNormalWrite = true,
+			sorted = true,
+		},
+		fade_out_range = {
+			fadeOutEndDist = 20000,
+			fadeOutStartDist = 10000,
+		},
+		map_albedo_opacity = {
+			fileName = "models/vehicle/car_load/gclass/gclass_glas.dds",
+			type = "TWOD",
+		},
+		map_metal_gloss_ao = {
+			fileName = "models/vehicle/car_load/gclass/gclass_glas_mga.dds",
+			scaleDownAllowed = true,
+			type = "TWOD",
+		},
+		map_normal = {
+			fileName = "models/vehicle/car_load/gclass/gclass_glas_nrml.dds",
+			redGreen = true,
+			type = "TWOD",
+		},
+		normal_scale = {
+			normalScale = 1,
+		},
+		polygon_offset = {
+			factor = 0,
+			forceDepthWrite = false,
+			units = 0,
+		},
+		two_sided = {
+			flipNormal = true,
+			twoSided = false,
+		},
+	},
+	type = "PHYS_TRANSPARENT_NRML_MAP",
+}
+end

@@ -1,0 +1,154 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 2.3477282524109, 0.97376018762589, 1.538462638855, },
+		bbMin = { -2.668300151825, -0.93640547990799, -0.00084781646728516, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 2.5080142021179, 0.95508283376694, 0.76965522766113, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/taunus/taunus_3.mtl", },
+						mesh = "vehicle/car_load/taunus/bandion_taunus_achseHinten_lod0.msh",
+						name = "bandion_taunus_achseHinten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.435693025589, -1.2551227257518e-07, 0.32811415195465, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/taunus/taunus_3.mtl", },
+						mesh = "vehicle/car_load/taunus/bandion_taunus_radL_lod0.msh",
+						name = "bandion_taunus_radL",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.491609454155, 0.82058334350586, 0.32811415195465, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/taunus/taunus_3.mtl", },
+						mesh = "vehicle/car_load/taunus/bandion_taunus_radR_lod0.msh",
+						name = "bandion_taunus_radR",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.491609454155, -0.8205828666687, 0.32811415195465, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/taunus/taunus_3.mtl", },
+						mesh = "vehicle/car_load/taunus/bandion_taunus_body_lod0.msh",
+						name = "bandion_taunus_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/taunus/glas.mtl", },
+						mesh = "vehicle/car_load/taunus/bandion_taunus_glass_lod0.msh",
+						name = "bandion_taunus_glass",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/taunus/taunus_3.mtl", },
+						mesh = "vehicle/car_load/taunus/bandion_taunus_innen_lod0.msh",
+						name = "bandion_taunus_innen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 0.89999997615814, 0, 0, 0, -0, 0.89999997615814, 0, 0, 0, -0, 0.89999997615814, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 30,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/taunus/taunus_3.mtl", },
+						mesh = "vehicle/car_load/taunus/bandion_taunus_achseHinten_lod1.msh",
+						name = "bandion_taunus_achseHinten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.435693025589, -1.2551227257518e-07, 0.32811415195465, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/taunus/taunus_3.mtl", },
+						mesh = "vehicle/car_load/taunus/bandion_taunus_radL_lod1.msh",
+						name = "bandion_taunus_radL",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.491609454155, 0.82058334350586, 0.32811415195465, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/taunus/taunus_3.mtl", },
+						mesh = "vehicle/car_load/taunus/bandion_taunus_radR_lod1.msh",
+						name = "bandion_taunus_radR",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.491609454155, -0.8205828666687, 0.32811415195465, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/taunus/taunus_3.mtl", },
+						mesh = "vehicle/car_load/taunus/bandion_taunus_body_lod1.msh",
+						name = "bandion_taunus_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/taunus/glas.mtl", },
+						mesh = "vehicle/car_load/taunus/bandion_taunus_glass_lod1.msh",
+						name = "bandion_taunus_glass",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/taunus/taunus_3.mtl", },
+						mesh = "vehicle/car_load/taunus/bandion_taunus_innen_lod1.msh",
+						name = "bandion_taunus_innen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 0.89999997615814, 0, 0, 0, -0, 0.89999997615814, 0, 0, 0, -0, 0.89999997615814, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 30,
+			visibleTo = 144.93872070313,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/taunus/taunus_3.mtl", },
+						mesh = "vehicle/car_load/taunus/bandion_taunus_achseHinten_lod2.msh",
+						name = "bandion_taunus_achseHinten",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.435693025589, -1.2551227257518e-07, 0.32811415195465, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/taunus/taunus_3.mtl", },
+						mesh = "vehicle/car_load/taunus/bandion_taunus_radL_lod2.msh",
+						name = "bandion_taunus_radL",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.491609454155, 0.82058334350586, 0.32811415195465, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/taunus/taunus_3.mtl", },
+						mesh = "vehicle/car_load/taunus/bandion_taunus_radR_lod2.msh",
+						name = "bandion_taunus_radR",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.491609454155, -0.8205828666687, 0.32811415195465, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/taunus/taunus_3.mtl", },
+						mesh = "vehicle/car_load/taunus/bandion_taunus_body_lod2.msh",
+						name = "bandion_taunus_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/taunus/glas.mtl", },
+						mesh = "vehicle/car_load/taunus/bandion_taunus_glass_lod2.msh",
+						name = "bandion_taunus_glass",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 0.89999997615814, 0, 0, 0, -0, 0.89999997615814, 0, 0, 0, -0, 0.89999997615814, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 144.93872070313,
+			visibleTo = 584.81616210938,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

@@ -1,0 +1,118 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 2.3914749622345, 1.0583981275558, 1.9546897411346, },
+		bbMin = { -2.5768196582794, -1.0583978891373, -0.015410661697388, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 2.484147310257, 1.0583980083466, 0.98505020141602, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/gclass/GKlasse.mtl", },
+						mesh = "vehicle/car_load/gclass/jay_mesh_glcass_body_lod0.msh",
+						name = "jay_mesh_glcass_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/gclass/GKlasse.mtl", },
+						mesh = "vehicle/car_load/gclass/jay_mesh_glcass_wheels_lod0.msh",
+						name = "jay_mesh_glcass_wheels",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/gclass/GKlasse.mtl", },
+						mesh = "vehicle/car_load/gclass/jay_mesh_glcass_innen_lod0.msh",
+						name = "jay_mesh_glcass_innen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/gclass/GKlasse.mtl", "vehicle/car_load/gclass/Glas.mtl", },
+						mesh = "vehicle/car_load/gclass/jay_mesh_glcass_scheiben_lod0.msh",
+						name = "jay_mesh_glcass_scheiben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/gclass/GKlasse.mtl", },
+						mesh = "vehicle/car_load/gclass/jay_mesh_glcass_ersatzrad_lod0.msh",
+						name = "jay_mesh_glcass_ersatzrad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 69.56844329834,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/gclass/GKlasse.mtl", },
+						mesh = "vehicle/car_load/gclass/jay_mesh_glcass_body_lod1.msh",
+						name = "jay_mesh_glcass_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/gclass/GKlasse.mtl", },
+						mesh = "vehicle/car_load/gclass/jay_mesh_glcass_wheels_lod1.msh",
+						name = "jay_mesh_glcass_wheels",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/gclass/GKlasse.mtl", "vehicle/car_load/gclass/Glas.mtl", },
+						mesh = "vehicle/car_load/gclass/jay_mesh_glcass_scheiben_lod1.msh",
+						name = "jay_mesh_glcass_scheiben",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/gclass/GKlasse.mtl", },
+						mesh = "vehicle/car_load/gclass/jay_mesh_glcass_ersatzrad_lod1.msh",
+						name = "jay_mesh_glcass_ersatzrad",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 69.56844329834,
+			visibleTo = 208.70532226563,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/gclass/GKlasse.mtl", },
+						mesh = "vehicle/car_load/gclass/jay_mesh_glcass_body_lod2.msh",
+						name = "jay_mesh_glcass_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/gclass/GKlasse.mtl", },
+						mesh = "vehicle/car_load/gclass/jay_mesh_glcass_wheels_lod2.msh",
+						name = "jay_mesh_glcass_wheels",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 208.70532226563,
+			visibleTo = 626.11596679688,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

@@ -1,0 +1,47 @@
+function data()
+return {
+	__version = "",
+	order = 0,
+	params = {
+		albedo_scale = {
+			albedoScale = { 1, 1, 1, },
+		},
+		fade_out_range = {
+			fadeOutEndDist = 20000,
+			fadeOutStartDist = 10000,
+		},
+		map_albedo = {
+			compressionAllowed = false,
+			fileName = "models/vehicle/car_load/bko/bko_generic/carpaint/bko_dark_tangerine.dds",
+			type = "TWOD",
+			wrapS = "REPEAT",
+			wrapT = "REPEAT",
+		},
+		map_metal_gloss_ao = {
+			compressionAllowed = false,
+			fileName = "models/vehicle/car_load/bko/bko_generic/carpaint/bko_paint_mg.dds",
+			type = "TWOD",
+			wrapS = "REPEAT",
+			wrapT = "REPEAT",
+		},
+		map_normal = {
+			fileName = "default_normal_map.dds",
+			redGreen = true,
+			type = "TWOD",
+		},
+		normal_scale = {
+			normalScale = 1,
+		},
+		polygon_offset = {
+			factor = 0,
+			forceDepthWrite = false,
+			units = 0,
+		},
+		two_sided = {
+			flipNormal = true,
+			twoSided = false,
+		},
+	},
+	type = "PHYSICAL_NRML_MAP",
+}
+end

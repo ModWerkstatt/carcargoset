@@ -1,0 +1,60 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 2.1198768615723, 0.94489842653275, 1.9264681339264, },
+		bbMin = { -2.1237711906433, -0.9515226483345, 0.31908646225929, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 2.1218240261078, 0.94821053743362, 0.80369085073471, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/vw_type_2_t1_ladung_abgedeckt/material.mtl", },
+						mesh = "vehicle/car_load/vw_type_2_t1_ladung_abgedeckt/jay_mesh_bedeckterBully_lod0.msh",
+						name = "jay_mesh_bedeckterBully",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car/vw_type_2_t1_v2/vw_typ_2_t1_lod.mtl", },
+						mesh = "vehicle/car/vw_type_2_t1_v2/body_lod1.msh",
+						name = "body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car/vw_type_2_t1_v2/vw_typ_2_t1_lod.mtl", },
+						mesh = "vehicle/car/vw_type_2_t1_v2/w1_lft_lod0.msh",
+						name = "w1_lft",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 1.1459999084473, 0.68000000715256, 0.31499999761581, 1, },
+					},
+					{
+						materials = { "vehicle/car/vw_type_2_t1_v2/vw_typ_2_t1_lod.mtl", },
+						mesh = "vehicle/car/vw_type_2_t1_v2/w1_lft_lod0.msh",
+						name = "w1_rgt",
+						transf = { -1, -1.5099578831723e-07, -1.5099578831723e-07, 0, 1.5099577410638e-07, -1, 1.5099581673894e-07, 0, -1.5099581673894e-07, 1.5099578831723e-07, 1, 0, 1.1459999084473, -0.68000000715256, 0.31499999761581, 1, },
+					},
+					{
+						materials = { "vehicle/car/vw_type_2_t1_v2/vw_typ_2_t1_lod.mtl", },
+						mesh = "vehicle/car/vw_type_2_t1_v2/w2_lod0.msh",
+						name = "w2",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -1.2640001773834, 1.162190084126e-16, 0.31499999761581, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 563.46179199219,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

@@ -1,0 +1,43 @@
+function data()
+return {
+	__version = "",
+	order = 0,
+	params = {
+		albedo_scale = {
+			albedoScale = { 0.88800001144409, 1.25, 1.194000005722, },
+		},
+		alpha_scale = {
+			alphaScale = 0.64999997615814,
+		},
+		alpha_test = {
+			a2CThreshold = 0,
+			alphaThreshold = 0.69999998807907,
+			cutout = true,
+			disableDepthAndNormalWrite = true,
+			sorted = true,
+		},
+		fade_out_range = {
+			fadeOutEndDist = 20000,
+			fadeOutStartDist = 10000,
+		},
+		map_albedo_opacity = {
+			fileName = "models/vehicle/car_load/q7_cover/q7_glass.dds",
+			type = "TWOD",
+		},
+		map_metal_gloss_ao = {
+			fileName = "models/vehicle/car_load/q7_cover/q7_glass_mga.dds",
+			type = "TWOD",
+		},
+		polygon_offset = {
+			factor = 0,
+			forceDepthWrite = false,
+			units = 0,
+		},
+		two_sided = {
+			flipNormal = true,
+			twoSided = false,
+		},
+	},
+	type = "PHYS_TRANSPARENT",
+}
+end

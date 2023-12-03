@@ -1,0 +1,148 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 2.3537750244141, 1.1007187366486, 1.6850173473358, },
+		bbMin = { -2.6308512687683, -1.1007187366486, -0.0044451355934143, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 2.4923131465912, 1.1007187366486, 0.84473121166229, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/bko_q7_covered/Body.mtl", },
+						mesh = "vehicle/car_load/bko_q7_covered/aqCovered_int_lod0.msh",
+						name = "aqCovered_int",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_q7_covered/Body.mtl", },
+						mesh = "vehicle/car_load/bko_q7_covered/aqCovered_seats_lod0.msh",
+						name = "aqCovered_seats",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_q7_covered/Body.mtl", },
+						mesh = "vehicle/car_load/bko_q7_covered/aqCovered_batyre_lod0.msh",
+						name = "aqCovered_batyre",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_q7_covered/Body.mtl", },
+						mesh = "vehicle/car_load/bko_q7_covered/aqCovered_blkmatt_lod0.msh",
+						name = "aqCovered_blkmatt",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_q7_covered/Body.mtl", },
+						mesh = "vehicle/car_load/bko_q7_covered/aqCovered_3seats_lod0.msh",
+						name = "aqCovered_3seats",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_q7_covered/Glass.mtl", },
+						mesh = "vehicle/car_load/bko_q7_covered/aqCovered_glass_lod0.msh",
+						name = "aqCovered_glass",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_q7_covered/Body.mtl", },
+						mesh = "vehicle/car_load/bko_q7_covered/aqCovered_dash01_lod0.msh",
+						name = "aqCovered_dash01",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_q7_covered/Body.mtl", },
+						mesh = "vehicle/car_load/bko_q7_covered/aqCovered_barim_lod0.msh",
+						name = "aqCovered_barim",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_q7_covered/Body.mtl", },
+						mesh = "vehicle/car_load/bko_q7_covered/aqCoveredCovered_body_lod0.msh",
+						name = "aqCoveredCovered_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 70.831153869629,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/bko_q7_covered/Body.mtl", },
+						mesh = "vehicle/car_load/bko_q7_covered/aqCovered_batyre_lod1.msh",
+						name = "aqCovered_batyre",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_q7_covered/Body.mtl", },
+						mesh = "vehicle/car_load/bko_q7_covered/aqCovered_blkmatt_lod1.msh",
+						name = "aqCovered_blkmatt",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_q7_covered/Glass.mtl", },
+						mesh = "vehicle/car_load/bko_q7_covered/aqCovered_glass_lod1.msh",
+						name = "aqCovered_glass",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_q7_covered/Body.mtl", },
+						mesh = "vehicle/car_load/bko_q7_covered/aqCovered_barim_lod1.msh",
+						name = "aqCovered_barim",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_q7_covered/Body.mtl", },
+						mesh = "vehicle/car_load/bko_q7_covered/aqCoveredCovered_body_lod1.msh",
+						name = "aqCoveredCovered_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 70.831153869629,
+			visibleTo = 212.49345397949,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/bko_q7_covered/Body.mtl", },
+						mesh = "vehicle/car_load/bko_q7_covered/aqCovered_batyre_lod2.msh",
+						name = "aqCovered_batyre",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bko_q7_covered/Body.mtl", },
+						mesh = "vehicle/car_load/bko_q7_covered/aqCoveredCovered_body_lod2.msh",
+						name = "aqCoveredCovered_body",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 212.49345397949,
+			visibleTo = 637.48034667969,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

@@ -1,0 +1,53 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 2.2919421195984, 1.5052202939987, 1.510355591774, },
+		bbMin = { -2.3573195934296, -1.4604598283768, -0.31558513641357, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 2.3246307373047, 1.4828400611877, 0.91297036409378, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/beetle_1948_covered/beetle_1948_covered.mtl", },
+						mesh = "vehicle/car_load/beetle_cover/jay_mesh_vwBeetlePlane_lod0.msh",
+						name = "jay_mesh_vwBeetlePlane",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 169.25038146973,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/beetle_1948_covered/beetle_1948_covered.mtl", },
+						mesh = "vehicle/car_load/beetle_cover/jay_mesh_vwBeetlePlane_lod1.msh",
+						name = "jay_mesh_vwBeetlePlane",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 169.25038146973,
+			visibleTo = 507.75115966797,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

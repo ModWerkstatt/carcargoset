@@ -1,0 +1,190 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 2.347630739212, 1.079039812088, 1.9845741987228, },
+		bbMin = { -2.4382317066193, -1.0879721641541, -0.001790463924408, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 2.3929312229156, 1.083505988121, 0.9931823015213, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/bandion_t3/bandion_t3_5.mtl", },
+						mesh = "vehicle/car_load/bandion_t3/bandion_mesh_t3_blinker_rechts_lod0.msh",
+						name = "bandion_mesh_t3_blinker_rechts",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bandion_t3/bandion_t3_5.mtl", },
+						mesh = "vehicle/car_load/bandion_t3/bandion_mesh_t3_licht_lod0.msh",
+						name = "bandion_mesh_t3_licht",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bandion_t3/bandion_t3_5.mtl", },
+						mesh = "vehicle/car_load/bandion_t3/bandion_mesh_t3_rads_lod0.msh",
+						name = "bandion_mesh_t3_rads",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bandion_t3/bandion_t3_5.mtl", },
+						mesh = "vehicle/car_load/bandion_t3/bandion_mesh_t3_bremse_lod0.msh",
+						name = "bandion_mesh_t3_bremse",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bandion_t3/bandion_t3_5.mtl", },
+						mesh = "vehicle/car_load/bandion_t3/bandion_mesh_t3_blinker_links_lod0.msh",
+						name = "bandion_mesh_t3_blinker_links",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bandion_t3/bandion_t3_5.mtl", },
+						mesh = "vehicle/car_load/bandion_t3/bandion_mesh_t3_innen_lod0.msh",
+						name = "bandion_mesh_t3_innen",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bandion_t3/glas.mtl", },
+						mesh = "vehicle/car_load/bandion_t3/bandion_mesh_t3_glas_lod0.msh",
+						name = "bandion_mesh_t3_glas",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bandion_t3/bandion_t3_5.mtl", },
+						mesh = "vehicle/car_load/bandion_t3/bandion_mesh_t3_details_lod0.msh",
+						name = "bandion_mesh_t3_details",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bandion_t3/bandion_t3_5.mtl", },
+						mesh = "vehicle/car_load/bandion_t3/bandion_mesh_t3_rumpf_lod0.msh",
+						name = "bandion_mesh_t3_rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, -0, 0.88999998569489, 0, 0, 0, -0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 39.727928161621,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/bandion_t3/bandion_t3_5.mtl", },
+						mesh = "vehicle/car_load/bandion_t3/bandion_mesh_t3_blinker_rechts_lod1.msh",
+						name = "bandion_mesh_t3_blinker_rechts",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bandion_t3/bandion_t3_5.mtl", },
+						mesh = "vehicle/car_load/bandion_t3/bandion_mesh_t3_licht_lod1.msh",
+						name = "bandion_mesh_t3_licht",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bandion_t3/bandion_t3_5.mtl", },
+						mesh = "vehicle/car_load/bandion_t3/bandion_mesh_t3_rads_lod1.msh",
+						name = "bandion_mesh_t3_rads",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bandion_t3/bandion_t3_5.mtl", },
+						mesh = "vehicle/car_load/bandion_t3/bandion_mesh_t3_bremse_lod1.msh",
+						name = "bandion_mesh_t3_bremse",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bandion_t3/bandion_t3_5.mtl", },
+						mesh = "vehicle/car_load/bandion_t3/bandion_mesh_t3_blinker_links_lod1.msh",
+						name = "bandion_mesh_t3_blinker_links",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bandion_t3/glas.mtl", },
+						mesh = "vehicle/car_load/bandion_t3/bandion_mesh_t3_glas_lod1.msh",
+						name = "bandion_mesh_t3_glas",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bandion_t3/bandion_t3_5.mtl", },
+						mesh = "vehicle/car_load/bandion_t3/bandion_mesh_t3_details_lod1.msh",
+						name = "bandion_mesh_t3_details",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bandion_t3/bandion_t3_5.mtl", },
+						mesh = "vehicle/car_load/bandion_t3/bandion_mesh_t3_rumpf_lod1.msh",
+						name = "bandion_mesh_t3_rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, -0, 0.88999998569489, 0, 0, 0, -0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 39.727928161621,
+			visibleTo = 159.18379211426,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/bandion_t3/bandion_t3_5.mtl", },
+						mesh = "vehicle/car_load/bandion_t3/bandion_mesh_t3_blinker_rechts_lod2.msh",
+						name = "bandion_mesh_t3_blinker_rechts",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bandion_t3/bandion_t3_5.mtl", },
+						mesh = "vehicle/car_load/bandion_t3/bandion_mesh_t3_licht_lod2.msh",
+						name = "bandion_mesh_t3_licht",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bandion_t3/bandion_t3_5.mtl", },
+						mesh = "vehicle/car_load/bandion_t3/bandion_mesh_t3_rads_lod2.msh",
+						name = "bandion_mesh_t3_rads",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bandion_t3/bandion_t3_5.mtl", },
+						mesh = "vehicle/car_load/bandion_t3/bandion_mesh_t3_bremse_lod2.msh",
+						name = "bandion_mesh_t3_bremse",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bandion_t3/bandion_t3_5.mtl", },
+						mesh = "vehicle/car_load/bandion_t3/bandion_mesh_t3_blinker_links_lod2.msh",
+						name = "bandion_mesh_t3_blinker_links",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/bandion_t3/bandion_t3_5.mtl", },
+						mesh = "vehicle/car_load/bandion_t3/bandion_mesh_t3_rumpf_lod2.msh",
+						name = "bandion_mesh_t3_rumpf",
+						transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, -0, 0.88999998569489, 0, 0, 0, -0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 159.18379211426,
+			visibleTo = 627.55139160156,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

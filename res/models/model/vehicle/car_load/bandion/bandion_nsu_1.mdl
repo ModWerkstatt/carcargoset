@@ -1,0 +1,148 @@
+function data()
+return {
+	boundingInfo = {
+		bbMax = { 1.9153563976288, 0.83601003885269, 1.3884490728378, },
+		bbMin = { -1.9297268390656, -0.76389712095261, -0.0086181163787842, },
+	},
+	collider = {
+		params = {
+			halfExtents = { 1.9225416183472, 0.79995357990265, 0.69853359460831, },
+		},
+		transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+		type = "BOX",
+	},
+	lods = {
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/nsu/fenster.mtl", },
+						mesh = "vehicle/car_load/nsu/bandion_nsuLP_fenster_lod0.msh",
+						name = "bandion_nsuLP_fenster",
+						transf = { 0.0099999997764826, 0, 0, 0, 0, -1.6292066584711e-09, 0.0099999997764826, 0, 0, -0.0099999997764826, -1.6292066584711e-09, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/nsu/nsu_1.mtl", },
+						mesh = "vehicle/car_load/nsu/bandion_nsuLP_lights_lod0.msh",
+						name = "bandion_nsuLP_lights",
+						transf = { 0.0099999997764826, 0, 0, 0, 0, -1.6292066584711e-09, 0.0099999997764826, 0, 0, -0.0099999997764826, -1.6292066584711e-09, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/nsu/nsu_1.mtl", },
+						mesh = "vehicle/car_load/nsu/bandion_nsuLP_innen_lod0.msh",
+						name = "bandion_nsuLP_innen",
+						transf = { 0.0099999997764826, 0, 0, 0, 0, -1.6292066584711e-09, 0.0099999997764826, 0, 0, -0.0099999997764826, -1.6292066584711e-09, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/nsu/nsu_1.mtl", },
+						mesh = "vehicle/car_load/nsu/bandion_nsuLP_body_lod0.msh",
+						name = "bandion_nsuLP_body",
+						transf = { 0.0099999997764826, 0, 0, 0, 0, -1.6292066584711e-09, 0.0099999997764826, 0, 0, -0.0099999997764826, -1.6292066584711e-09, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/nsu/nsu_1.mtl", },
+						mesh = "vehicle/car_load/nsu/bandion_nsuLP_wheels_lod0.msh",
+						name = "bandion_nsuLP_wheels",
+						transf = { 0.0099999997764826, 0, 0, 0, 0, -1.6292066584711e-09, 0.0099999997764826, 0, 0, -0.0099999997764826, -1.6292066584711e-09, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/nsu/nsu_1.mtl", },
+						mesh = "vehicle/car_load/nsu/bandion_nsuLP_lenkrad_lod0.msh",
+						name = "bandion_nsuLP_lenkrad",
+						transf = { 0.0099999997764826, 0, 0, 0, 0, -1.6292066584711e-09, 0.0099999997764826, 0, 0, -0.0099999997764826, -1.6292066584711e-09, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/nsu/nsu_1.mtl", },
+						mesh = "vehicle/car_load/nsu/bandion_nsuLP_auspuff_lod0.msh",
+						name = "bandion_nsuLP_auspuff",
+						transf = { 0.0099999997764826, 0, 0, 0, 0, -1.6292066584711e-09, 0.0099999997764826, 0, 0, -0.0099999997764826, -1.6292066584711e-09, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/nsu/nsu_1.mtl", },
+						mesh = "vehicle/car_load/nsu/bandion_nsuLP_spiegel_lod0.msh",
+						name = "bandion_nsuLP_spiegel",
+						transf = { 0.0099999997764826, 0, 0, 0, 0, -1.6292066584711e-09, 0.0099999997764826, 0, 0, -0.0099999997764826, -1.6292066584711e-09, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 0,
+			visibleTo = 28.846904754639,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/nsu/fenster.mtl", },
+						mesh = "vehicle/car_load/nsu/bandion_nsuLP_fenster_lod1.msh",
+						name = "bandion_nsuLP_fenster",
+						transf = { 0.0099999997764826, 0, 0, 0, 0, -1.6292066584711e-09, 0.0099999997764826, 0, 0, -0.0099999997764826, -1.6292066584711e-09, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/nsu/nsu_1.mtl", },
+						mesh = "vehicle/car_load/nsu/bandion_nsuLP_lights_lod1.msh",
+						name = "bandion_nsuLP_lights",
+						transf = { 0.0099999997764826, 0, 0, 0, 0, -1.6292066584711e-09, 0.0099999997764826, 0, 0, -0.0099999997764826, -1.6292066584711e-09, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/nsu/nsu_1.mtl", },
+						mesh = "vehicle/car_load/nsu/bandion_nsuLP_innen_lod1.msh",
+						name = "bandion_nsuLP_innen",
+						transf = { 0.0099999997764826, 0, 0, 0, 0, -1.6292066584711e-09, 0.0099999997764826, 0, 0, -0.0099999997764826, -1.6292066584711e-09, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/nsu/nsu_1.mtl", },
+						mesh = "vehicle/car_load/nsu/bandion_nsuLP_body_lod1.msh",
+						name = "bandion_nsuLP_body",
+						transf = { 0.0099999997764826, 0, 0, 0, 0, -1.6292066584711e-09, 0.0099999997764826, 0, 0, -0.0099999997764826, -1.6292066584711e-09, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/nsu/nsu_1.mtl", },
+						mesh = "vehicle/car_load/nsu/bandion_nsuLP_wheels_lod1.msh",
+						name = "bandion_nsuLP_wheels",
+						transf = { 0.0099999997764826, 0, 0, 0, 0, -1.6292066584711e-09, 0.0099999997764826, 0, 0, -0.0099999997764826, -1.6292066584711e-09, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 28.846904754639,
+			visibleTo = 128.54071044922,
+		},
+		{
+			node = {
+				children = {
+					{
+						materials = { "vehicle/car_load/nsu/fenster.mtl", },
+						mesh = "vehicle/car_load/nsu/bandion_nsuLP_fenster_lod2.msh",
+						name = "bandion_nsuLP_fenster",
+						transf = { 0.0099999997764826, 0, 0, 0, 0, -1.6292066584711e-09, 0.0099999997764826, 0, 0, -0.0099999997764826, -1.6292066584711e-09, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/nsu/nsu_1.mtl", },
+						mesh = "vehicle/car_load/nsu/bandion_nsuLP_body_lod2.msh",
+						name = "bandion_nsuLP_body",
+						transf = { 0.0099999997764826, 0, 0, 0, 0, -1.6292066584711e-09, 0.0099999997764826, 0, 0, -0.0099999997764826, -1.6292066584711e-09, 0, 0, 0, 0, 1, },
+					},
+					{
+						materials = { "vehicle/car_load/nsu/nsu_1.mtl", },
+						mesh = "vehicle/car_load/nsu/bandion_nsuLP_wheels_lod2.msh",
+						name = "bandion_nsuLP_wheels",
+						transf = { 0.0099999997764826, 0, 0, 0, 0, -1.6292066584711e-09, 0.0099999997764826, 0, 0, -0.0099999997764826, -1.6292066584711e-09, 0, 0, 0, 0, 1, },
+					},
+				},
+				name = "RootNode",
+				transf = { 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, },
+			},
+			static = false,
+			visibleFrom = 128.54071044922,
+			visibleTo = 475.62213134766,
+		},
+	},
+	metadata = { },
+	version = 1,
+}
+end

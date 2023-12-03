@@ -1,0 +1,51 @@
+function data()
+return {
+	__version = "",
+	order = 0,
+	params = {
+		albedo_scale = {
+			albedoScale = { 1, 1, 1, },
+		},
+		color_blend = {
+			albedoScales = { 0.69999997615814, },
+			colors = {
+				{ 0.62745094299316, 0.49482250213623, 0.30511337518692, },
+			},
+		},
+		fade_out_range = {
+			fadeOutEndDist = 20000,
+			fadeOutStartDist = 10000,
+		},
+		map_albedo = {
+			fileName = "models/vehicle/car_load/taunus17m/rumpf_albedo.dds",
+			type = "TWOD",
+		},
+		map_cblend = {
+			fileName = "models/vehicle/car_load/taunus17m/rumpf_cblend_dirt_rust.dds",
+			type = "TWOD",
+		},
+		map_metal_gloss_ao = {
+			fileName = "models/vehicle/car_load/taunus17m/rumpf_metal_gloss_ao.dds",
+			type = "TWOD",
+		},
+		map_normal = {
+			fileName = "models/vehicle/car_load/taunus17m/rumpf_normal.dds",
+			redGreen = true,
+			type = "TWOD",
+		},
+		normal_scale = {
+			normalScale = 1,
+		},
+		polygon_offset = {
+			factor = 0,
+			forceDepthWrite = false,
+			units = 0,
+		},
+		two_sided = {
+			flipNormal = true,
+			twoSided = false,
+		},
+	},
+	type = "PHYSICAL_NRML_MAP_CBLEND",
+}
+end

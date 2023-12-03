@@ -1,0 +1,43 @@
+function data()
+return {
+	__version = "",
+	order = 0,
+	params = {
+		albedo_scale = {
+			albedoScale = { 1.0140000581741, 1.0140000581741, 1.0700000524521, },
+		},
+		alpha_scale = {
+			alphaScale = 0.34999999403954,
+		},
+		alpha_test = {
+			a2CThreshold = 0,
+			alphaThreshold = 1.0499999523163,
+			cutout = true,
+			disableDepthAndNormalWrite = true,
+			sorted = true,
+		},
+		fade_out_range = {
+			fadeOutEndDist = 20000,
+			fadeOutStartDist = 10000,
+		},
+		map_albedo_opacity = {
+			fileName = "models/vehicle/car_load/2cv/glas_albedo_opacity.dds",
+			type = "TWOD",
+		},
+		map_metal_gloss_ao = {
+			fileName = "default_metal_gloss_ao.dds",
+			type = "TWOD",
+		},
+		polygon_offset = {
+			factor = 0,
+			forceDepthWrite = false,
+			units = 0,
+		},
+		two_sided = {
+			flipNormal = true,
+			twoSided = false,
+		},
+	},
+	type = "PHYS_TRANSPARENT",
+}
+end

@@ -1,0 +1,33 @@
+function data()
+return {
+	__version = "",
+	order = 0,
+	params = {
+		albedo_scale = {
+			albedoScale = { 1.0299999713898, 1.0299999713898, 1.0299999713898, },
+		},
+		fade_out_range = {
+			fadeOutEndDist = 20000,
+			fadeOutStartDist = 10000,
+		},
+		map_albedo = {
+			fileName = "models/vehicle/car_load/bko/bko_generic/bko_standard/bko_rubberblack.dds",
+			type = "TWOD",
+		},
+		map_metal_gloss_ao = {
+			fileName = "models/vehicle/car_load/bko/bko_generic/bko_standard/bko_rubberblack_mg.dds",
+			type = "TWOD",
+		},
+		polygon_offset = {
+			factor = 0,
+			forceDepthWrite = false,
+			units = 0,
+		},
+		two_sided = {
+			flipNormal = true,
+			twoSided = false,
+		},
+	},
+	type = "PHYSICAL",
+}
+end
