@@ -1,0 +1,106 @@
+function data()
+return {
+	__version = "",
+	order = 0,
+	params = {
+		albedo_scale = {
+			albedoScale = { 1, 1, 1, },
+		},
+		alpha_scale = {
+			alphaScale = 1,
+		},
+		alpha_test = {
+			a2CThreshold = 0.89999997615814,
+			alphaThreshold = 0.5,
+			cutout = true,
+			disableDepthAndNormalWrite = false,
+			sorted = false,
+		},
+		color_blend = {
+			albedoScales = { 4, },
+			colors = {
+				{ 0.1016224399209, 0.23137253522873, 0.12608574330807, },
+			},
+		},
+		dirt_rust = {
+			age = 0,
+			dirtColor = { 0.30000001192093, 0.25, 0.15999999642372, },
+			dirtFactor = 0,
+			dirtOpacity = 0.0099999997764826,
+			dirtScale = 10,
+			rustColor = { 0.40000000596046, 0.25999999046326, 0.20000000298023, },
+			rustFactor = 0,
+			rustOpacity = 0.47999998927116,
+			rustScale = 3.9500000476837,
+		},
+		fade_out_range = {
+			fadeOutEndDist = 20000,
+			fadeOutStartDist = 10000,
+		},
+		map_albedo_opacity = {
+			fileName = "models/vehicle/car/avant_v2/car_avant_albedo_opacity.dds",
+			type = "TWOD",
+			wrapS = "REPEAT",
+			wrapT = "REPEAT",
+		},
+		map_cblend_dirt_rust = {
+			fileName = "models/vehicle/car/avant_v2/car_avant_cblend_dirt_rust.dds",
+			type = "TWOD",
+			wrapS = "REPEAT",
+			wrapT = "REPEAT",
+		},
+		map_dirt = {
+			fileName = "models/vehicle/dirt_albedo.dds",
+			type = "TWOD",
+			wrapS = "REPEAT",
+			wrapT = "REPEAT",
+		},
+		map_dirt_normal = {
+			fileName = "models/vehicle/dirt_normal.dds",
+			redGreen = true,
+			type = "TWOD",
+			wrapS = "REPEAT",
+			wrapT = "REPEAT",
+		},
+		map_metal_gloss_ao = {
+			fileName = "models/vehicle/car/avant_v2/car_avant_metal_gloss_ao.dds",
+			type = "TWOD",
+			wrapS = "REPEAT",
+			wrapT = "REPEAT",
+		},
+		map_normal = {
+			fileName = "models/vehicle/car/avant_v2/car_avant_normal.dds",
+			redGreen = true,
+			type = "TWOD",
+			wrapS = "REPEAT",
+			wrapT = "REPEAT",
+		},
+		map_rust = {
+			fileName = "models/vehicle/rust_albedo.dds",
+			type = "TWOD",
+			wrapS = "REPEAT",
+			wrapT = "REPEAT",
+		},
+		map_rust_normal = {
+			fileName = "models/vehicle/rust_normal.dds",
+			redGreen = true,
+			type = "TWOD",
+			wrapS = "REPEAT",
+			wrapT = "REPEAT",
+		},
+		normal_scale = {
+			normalScale = 1,
+		},
+		polygon_offset = {
+			factor = 0,
+			forceDepthWrite = false,
+			units = 0,
+		},
+		two_sided = {
+			flipNormal = true,
+			twoSided = false,
+		},
+	},
+	type = "PHYS_TRANSPARENT_NRML_MAP_CBLEND_DIRT",
+}
+end
